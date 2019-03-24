@@ -1,0 +1,92 @@
+
+Tutorial: https://github.com/EvoSuite/evosuite/wiki/Tutorial%3A-Part-1--Evosuite-on-the-Command-Line
+
+
+Tutorial EVO suit:
+
+	#add to classpath
+	export EVOSUITE="java -jar $(pwd)/evosuite-1.0.5.jar"
+
+	#to use
+	$EVOSUITE
+
+#Class under test and bytecode - tem que entrar no diretorio: Tutorial_Stack:
+$EVOSUITE -class tutorial.Stack -projectCP target/classes
+
+#The output are:
+
+	#configuration for replicability
+	evosuite-tests/tutorial/Stack_ESTest_scaffolding.java
+
+	#The tests:
+	evosuite-tests/tutorial/Stack_ESTest.java
+
+
+
+#To install dependencies:- tem que entrar no diretorio: Tutorial_Stack:
+	mvn dependency:copy-dependencies
+
+
+#Inform the compiler where are those stuff
+	export CLASSPATH=target/classes:../evosuite-standalone-runtime-1.0.5.jar:evosuite-tests:target/dependency/junit-4.12.jar:target/dependency/hamcrest-core-1.3.jar
+
+
+#compile the tests (latter we will put together inside maven)
+	javac evosuite-tests/tutorial/*.java
+
+
+#look for the .class files inside dir: evosuite-tests/tutorial
+
+
+##Playing with EvoSuite settings
+
+
+To generate branch coverage tests, type:
+	$EVOSUITE -class tutorial.Stack -projectCP target/classes -criterion branch
+
+
+we can change the coverage criteria using the parameter: -criterion
+
+
+EvoSuite uses search-based techniques, so the time it spends on test generation is called the search budget.
+We can change this time using:
+
+	$EVOSUITE -class tutorial.Stack -projectCP target/classes -Dsearch_budget=20
+
+
+
+List all parameters from properties: -Dproperty=value 
+	$EVOSUITE -listParameters
+
+
+Evosuit only keep the minimum test cases and assertions to achieve the coverage criteria, we can change this using:
+
+	$EVOSUITE -class tutorial.Stack -projectCP target/classes -Dsearch_budget=20 -Dminimize=false -Dassertion_strategy=all
+
+
+#we can set the classpath in a configuration file (to avoid make it all the time):
+
+
+ EvoSuite supports the command -measureCoverage, and we need to specify the class under test (-class tutorial.Stack), the tests we are interested in (-Djunit=tutorial.StackTest), the classpath containing the class under test and the tests (-projectCP target/classes:target/test-classes), and optionally, which criteria we are interested (e.g., -criterion branch):
+
+	$EVOSUITE -measureCoverage -class tutorial.Stack -Djunit=tutorial.StackTest -criterion branch -projectCP target/classes:target/test-classes
+
+
+If we now only want to have tests that cover the remaining 4 branch coverage goals, we would invoke EvoSuite as follows:
+
+	$EVOSUITE -class tutorial.Stack -Djunit=tutorial.StackTest -projectCP target/classes:target/test-classes -criterion branch
+
+
+more than one class, change -class by -target
+
+	$EVOSUITE -listClasses -target target/classes
+
+
+evoke evo in all classe in path:
+	$EVOSUITE -target target/classes
+
+
+To test all classes in the tutorial package, type the following command:
+
+
+
