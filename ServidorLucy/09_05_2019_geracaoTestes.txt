@@ -33,3 +33,14 @@ Para colocar no PATH os programas:
 Comandos:
 https://askubuntu.com/questions/222361/how-to-add-shell-script-to-my-linux-system
 ================================================================================
+
+
+
+Para rodar coisas grandes:
+
+ssh evosuite@143.107.58.177 '/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/' &
+
+
+
+
+
