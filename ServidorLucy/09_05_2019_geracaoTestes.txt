@@ -1,0 +1,46 @@
+#Servidor Lucy:
+
+ssh evosuite@143.107.58.177
+evosuite/19#sin5022#01
+
+================================================================================
+cd evosuit
+
+mkidr adilsonTeste
+mkidr outputTeste
+
+#Faz o download do projeto Closure v18 no diretorio: /home/evosuite/adilsonTeste/Clojure_18_buggy  ( uma pasta xpto dentro do usuário onde posso escrever)
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonTeste/Clojure_18_buggy
+================================================================================
+#gerar testes para 3 possiveis criterios:
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/
+
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/
+
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/
+================================================================================
+-p -> Id do projeto
+-v -> versao do projeto (muda a qtd de bugs de uma versao para outra)
+-c -> criterio para geracao de testes
+-o -> diretorio de output dos testes gerados
+-n -> label para a geracao de testes
+-t -> diretorio com o projeto Closure v18
+================================================================================
+Para colocar no PATH os programas: 
+1. run_evosuite.pl
+2. defects4j
+
+Comandos:
+https://askubuntu.com/questions/222361/how-to-add-shell-script-to-my-linux-system
+================================================================================
+
+
+
+Para rodar coisas grandes:
+
+ssh evosuite@143.107.58.177 '/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/' &
+
+
+
+
+

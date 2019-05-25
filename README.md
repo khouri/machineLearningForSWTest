@@ -18,4 +18,5 @@ http://www.evosuite.org/documentation/tutorial-part-2/
 
 # Authors
 Adilson Lopes Khouri
+
 Nicolas Hamparsomian
