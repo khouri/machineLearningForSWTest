@@ -1,0 +1,3 @@
+######  Start test generation  /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl: 2019-05-25 12:24:15  ######
+Generate tests for: com.google.javascript.jscomp.Compiler : branch : 100s
+######  End test generation  /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl: 2019-05-25 12:27:31  ######

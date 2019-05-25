@@ -1,0 +1,53 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Compiler
+* Starting client
+* Connecting to master process on port 11575
+* Analyzing classpath: 
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/build/classes
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/args4j.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/guava.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/json.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/jsr305.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/protobuf-java.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/build/lib/rhino.jar
+  - /home/evosuite/adilsonTeste/Clojure_18_bug/run_evosuite.pl_6527_1558812246/lib/ant.jar
+[MASTER] 12:24:23.473 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+[MASTER] 12:24:24.360 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+[MASTER] 12:24:24.360 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+[MASTER] 12:24:24.390 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+[MASTER] 12:24:24.390 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.Function
+[MASTER] 12:24:24.391 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+[MASTER] 12:24:24.774 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Compiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 567
+* Using seed 1558812259028
+* Starting evolution
+[MASTER] 12:24:38.481 [logback-1] WARN  MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+* Search finished after 104s and 84 generations, 23034 statements, best individual has fitness: 276.25
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 567
+* Number of covered goals: 269
+* Generated 86 tests with total length 272
+* Resulting test suite's coverage: 47%
+* GA-Budget:
+	- MaxTime :                        131 / 100          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                    304 / 0           
+* Time spent executing tests: 44474ms
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         fileSystemProvider: 1
+         writeFileDescriptor: 1
+* Writing JUnit test case 'Compiler_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
