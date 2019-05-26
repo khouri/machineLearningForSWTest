@@ -42,5 +42,175 @@ ssh evosuite@143.107.58.177 '/home/sin5022-adm/defects4j/framework/bin/run_evosu
 
 
 
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+
+#Servidor Lucy:
+
+ssh evosuite@143.107.58.177
+evosuite/19#sin5022#01
+
+================================================================================
+cd evosuit
+
+mkidr adilsonTeste
+mkidr outputTeste
+
+
+
+#Faz o download do projeto Closure v18 no diretorio: /home/evosuite/adilsonTeste/Clojure_18_buggy  ( uma pasta xpto dentro do usuário onde posso escrever)
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonTeste/Clojure_18_buggy
+================================================================================
+#gerar testes para 3 possiveis criterios:
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonTeste/Clojure_18_bug/
+
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/
+
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -Dsearch_budget=40 -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/
+================================================================================
+-p -> Id do projeto
+-v -> versao do projeto (muda a qtd de bugs de uma versao para outra)
+-c -> criterio para geracao de testes
+-o -> diretorio de output dos testes gerados
+-n -> label para a geracao de testes
+-t -> diretorio com o projeto Closure v18
+================================================================================
+Para colocar no PATH os programas: 
+1. run_evosuite.pl
+2. defects4j
+
+Comandos:
+https://askubuntu.com/questions/222361/how-to-add-shell-script-to-my-linux-system
+================================================================================
+
+-Dsearch_budget=40
+
+
+Para rodar coisas grandes:
+
+ssh evosuite@143.107.58.177
+19#sin5022#01
+
+
+ssh evosuite@143.107.58.177 ' nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/ &'
+
+
+/home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -Dsearch_budget=40 -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/
+
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_buggy/ > output.txt &
+
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+ps -e -o pid,comm,etime | grep 9795
+
+ vim ../../sin5022-adm/defects4j/framework/bin/run_evosuite.pl 
+
+pesquisa por testes
+find evosuite-branch/ -name "*.java" 
+find outputTeste/Closure/ -name "*.java"
+
+
+Erro encontrado
+
+Run EvoSuite (strongmutation;/home/sin5022-adm/defects4j/framework/util/evo OK
+tar: /home/evosuite/adilsonTeste/Clojure_18_buggy//run_evosuite.pl_18942_1558569674/evosuite-strongmutation/: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+
+Versao do Java 8
+https://github.com/rjust/defects4j/issues/64
+
+
+export JUNIT_HOME=/Users/adilsonlopeskhouri/jUnity/junit-4.10.jar
+
+export CLASSPATH=$CLASSPATH:$/Users/adilsonlopeskhouri/jUnity/junit-4.10.jar:
+
+export CLASSPATH=$CLASSPATH:$JUNIT_HOME/junit4.10.jar:.
+
+export JUNIT_HOME=/adilsonlopeskhouri/jUnity/
+/Users/adilsonlopeskhouri/jUnity/junit-4.10.jar
+
+
+--------
+Como rodar casos de teste Junity no commandline:
+o segredo é adicionar o jar do junity no classpath do compiler
+http://benjamintan.io/blog/2014/10/14/running-junit-test-from-the-command-line/
+
+javac -cp .:"junit-4.12.jar" Compiler_ESTest.java
+
+java -cp .:"junit-4.12.jar" org.junit.runner.JUnitCore TestJunit
+
+
+A classe de testes devo compilar com o jar do junity no -cp da javac, dessa forma adiciona no classpath.
+Depois.... Rodo os casos de teste com java e o parametro -cp setando o junity
+
+Outra opção é usar o Runner que construímos:
+java -cp .:"junit-4.10.jar" TestRunner
+
+
+#Pega tudo e copia na mesma pasta.
+find Clojure_18_buggy/ -name "*.java" -exec cp {} -t ./tudoJava \;
+
+
+ssh evosuite@143.107.58.177
+19#sin5022#01
+
+ps -e -o pid,comm,etime | grep 9795
+
+while true; do
+    sleep 5
+    ps -e -o pid,comm,etime | grep 3251
+    ps -e -o pid,comm,etime | grep 3417
+done
+
+
+
+#Agora rodar o evo na pasta
+
+#Exportar o evo para a variavel PATH, assim fica mais facil chamar por command line
+export EVOSUITE="java -jar $(pwd)/evosuite-1.0.6.jar"
+
+
+
+Para listar as classes que seriam consideradas:
+$EVOSUITE -listClasses -target Clojure_18_bug/build
+
+
+
+#Faz o download do projeto Closure v18 no diretorio: /home/evosuite/adilsonTeste/Clojure_18_buggy  ( uma pasta xpto dentro do usuário onde posso escrever)
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18f -w /home/evosuite/adilsonTeste/Clojure_18_fixed
+
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonTeste/Clojure_18_bug
+
+
+dentro da raiz do diretorio das duas vers compilar tudo com o comando: 
+ant jar
+
+
+
+4h
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+
+3251
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+
+3417
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+
+
+
+
 
 
