@@ -142,9 +142,9 @@ Como rodar casos de teste Junity no commandline:
 o segredo é adicionar o jar do junity no classpath do compiler
 http://benjamintan.io/blog/2014/10/14/running-junit-test-from-the-command-line/
 
-javac -cp .:"junit-4.12.jar" Compiler_ESTest.java
+javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" Compiler_ESTest.java
 
-java -cp .:"junit-4.12.jar" org.junit.runner.JUnitCore TestJunit
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore TestJunit
 
 
 A classe de testes devo compilar com o jar do junity no -cp da javac, dessa forma adiciona no classpath.
@@ -158,6 +158,10 @@ java -cp .:"junit-4.10.jar" TestRunner
 find Clojure_18_buggy/ -name "*.java" -exec cp {} -t ./tudoJava \;
 
 
+scp /Users/adilsonlopeskhouri/Desktop/Compiler_ESTest.java evosuite@143.107.58.177:/home/evosuite/adilsonTeste/
+
+
+
 ssh evosuite@143.107.58.177
 19#sin5022#01
 
@@ -168,6 +172,12 @@ while true; do
     ps -e -o pid,comm,etime | grep 3251
     ps -e -o pid,comm,etime | grep 3417
 done
+
+while true; do
+    sleep 5
+	ls
+done
+
 
 
 
@@ -180,6 +190,11 @@ export EVOSUITE="java -jar $(pwd)/evosuite-1.0.6.jar"
 
 Para listar as classes que seriam consideradas:
 $EVOSUITE -listClasses -target Clojure_18_bug/build
+
+  d4j-test [-w work_dir] [-r | [-t single_test] [-s test_suite]]
+  
+../../sin5022-adm/defects4j/framework/bin/d4j/d4j-test
+checkout -p Closure -v 18f -w /home/evosuite/adilsonTeste/Clojure_18_fixed
 
 
 
@@ -206,6 +221,12 @@ nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18
 
 3417
 nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+
+
+#Rodar casos do EVO sobre o conjunto de dados
+/home/sin5022-adm/defects4j/framework/bin/d4j/d4j-test -w /home/evosuite/adilsonTeste/Clojure_18_bug -s outputTeste/Closure/evosuite-branch/1/Closure-18b-evosuite-branch.1.tar.bz2
 
 
 

@@ -1,0 +1,34 @@
+#step by step (organizado)
+
+#realiza download do Closure:
+
+#Faz o download do projeto Closure v18 no diretorio: /home/evosuite/adilsonTeste/Clojure_18_buggy  ( uma pasta xpto dentro do usuário onde posso escrever)
+
+###fix
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18f -w /home/evosuite/adilsonTeste/Clojure_18_fixed
+
+###bug
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonTeste/Clojure_18_bug
+
+
+#Roda a geracao de testes:
+Vale ressaltar que o parametro -A forca a execucao sobre todas as classes de interesse (de acordo com a doc) o tempo de execução de cada caso foi de 4h após adicionar o parâmetro -A
+
+###branch
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+###weakmutation
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+###strongmutation
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+
+
+#Compila os testes
+resumidamente coloca no path do compilador javac os jars necessarios, passa por meio de regex todas as classes geradas de teste para o compilador usando o comando find do unix
+
+	javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" $(find outputTeste/Closure/evosuite-branch/1/ -name "*.java")
+
+
+#Executa os testes sobre o conjunto de classes com e sem bug
+
