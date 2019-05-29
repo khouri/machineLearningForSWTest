@@ -142,9 +142,31 @@ Como rodar casos de teste Junity no commandline:
 o segredo é adicionar o jar do junity no classpath do compiler
 http://benjamintan.io/blog/2014/10/14/running-junit-test-from-the-command-line/
 
-javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" Compiler_ESTest.java
 
-java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore TestJunit
+#aqui tem todos os .class para compilar os testes servem
+
+outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest.java
+
+javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest_scaffolding.java outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest.java
+
+
+javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" $(find outputTeste/Closure/evosuite-branch/1/ -name "*.java")
+
+
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" org.junit.runner.JUnitCore $(find outputTeste/Closure/evosuite-branch/1/ -name "*.class")
+
+
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" org.junit.runner.JUnitCore Compiler_ESTest_scaffolding Compiler_ESTest 
+
+
+
+
+Seria possível compilar de uma vez só a porra toda?
+
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" org.junit.runner.JUnitCore Compiler_ESTest_scaffolding Compiler_ESTest 
+
+
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore Compiler_ESTest
 
 
 A classe de testes devo compilar com o jar do junity no -cp da javac, dessa forma adiciona no classpath.
@@ -153,12 +175,44 @@ Depois.... Rodo os casos de teste com java e o parametro -cp setando o junity
 Outra opção é usar o Runner que construímos:
 java -cp .:"junit-4.10.jar" TestRunner
 
+find outputTeste/Closure/evosuite-branch/1/ -name "*Compiler_ESTest.java"
+
+
+
+
 
 #Pega tudo e copia na mesma pasta.
 find Clojure_18_buggy/ -name "*.java" -exec cp {} -t ./tudoJava \;
 
+find outputTeste/Closure/evosuite-branch/1/ -name "*.java"
 
-scp /Users/adilsonlopeskhouri/Desktop/Compiler_ESTest.java evosuite@143.107.58.177:/home/evosuite/adilsonTeste/
+
+
+scp /Users/adilsonlopeskhouri/Desktop/convertFindOutput.py evosuite@143.107.58.177:/home/evosuite/adilsonTeste/convertFindOutput.py
+
+
+
+cp outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest_scaffolding.java .
+
+
+scp evosuite@143.107.58.177:/home/evosuite/adilsonTeste/outputTeste/logs/Closure.18b.branch.1.log /Users/adilsonlopeskhouri/Desktop/Closure.18b.branch.1.log
+
+scp evosuite@143.107.58.177:/home/evosuite/adilsonTeste/outputTeste/logs/Closure.18b.strongmutation.3.log /Users/adilsonlopeskhouri/Desktop/Closure.18b.strongmutation.3.log
+
+scp evosuite@143.107.58.177:/home/evosuite/adilsonTeste/outputTeste/logs/Closure.18b.weakmutation.2.log /Users/adilsonlopeskhouri/Desktop/Closure.18b.weakmutation.2.log
+
+
+scp evosuite@143.107.58.177:outputTeste/Closure/evosuite-branch/1/Closure-18b-evosuite-branch.1.tar.bz2 /Users/adilsonlopeskhouri/Desktop/Closure-18b-evosuite-branch.1.tar.bz2
+
+scp evosuite@143.107.58.177:outputTeste/Closure/evosuite-weakmutation/2/Closure-18b-evosuite-weakmutation.2.tar.bz2 /Users/adilsonlopeskhouri/Desktop/Closure-18b-evosuite-weakmutation.2.tar.bz2
+
+scp evosuite@143.107.58.177:outputTeste/Closure/evosuite-strongmutation/3/Closure-18b-evosuite-strongmutation.3.tar.bz2 /Users/adilsonlopeskhouri/Desktop/Closure-18b-evosuite-strongmutation.3.tar.bz2
+
+
+
+
+
+
 
 
 

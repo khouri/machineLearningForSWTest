@@ -1,0 +1,1501 @@
+;class_name;number_of_goals;number_of_tests;length_of_testes;ga_zero_fitness;ga_max_time;ga_shutdown_test_writer;test_suit_mutation_score;time_spent_to_execute_tests;test_suit_coverage;num_coverage_goals;criterion;coverage_of_criterion;search_finished_after;num_generations;num_statements;best_ind_fitness;permissions;warnings;exceptions
+0;com.google.javascript.rhino.jstype.StringType;8;7;28;1 / 0;204 / 200          Finished!;0 / 0;100%;136610ms;100%;8;STRONGMUTATION;100%;202s;724;177130;1.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+1;com.google.javascript.jscomp.LightweightMessageFormatter;135;8;34;126 / 0;271 / 200          Finished!;0 / 0;61%;257014ms;45%;64;STRONGMUTATION;47%;219s;21;112734;126.75237717636465;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+2;com.google.javascript.jscomp.ComposeWarningsGuard;71;14;225;23 / 0;260 / 200          Finished!;0 / 0;85%;161861ms;55%;41;STRONGMUTATION;58%;206s;63;736255;22.678268110451974;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+3;com.google.javascript.jscomp.ConstCheck;38;2;8;159 / 0;201 / 200          Finished!;0 / 0;8%;48980ms;0%;3;STRONGMUTATION;8%;202s;460;151260;153.3960429902093;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 187 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 189 seconds more than allowed.
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+4;com.google.javascript.jscomp.JSModule;62;9;32;50 / 0;209 / 200          Finished!;0 / 0;31%;40333ms;32%;24;STRONGMUTATION;39%;203s;105;135168;48.371388041731485;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+5;com.google.javascript.jscomp.ProcessTweaks;;;;;;;;;;;;;;;;;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+6;;239;2;11;859 / 0;203 / 200          Finished!;0 / 0;0%;71116ms;0%;2;STRONGMUTATION;1%;201s;61;174423;858.804403824973;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$9/618964409 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$9/618964409
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/1375604016 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/1375604016
+ //";
+7;com.google.javascript.rhino.jstype.NumberType;9;9;33;1 / 0;202 / 200          Finished!;0 / 0;100%;132672ms;100%;9;STRONGMUTATION;100%;201s;812;182783;36.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+8;com.google.javascript.jscomp.type.ReverseAbstractInterpreter;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+9;com.google.javascript.jscomp.PassConfig;79;46;394;89 / 0;353 / 200          Finished!;0 / 0;72%;342879ms;0%;0;STRONGMUTATION;0%;203s;14;28805;78.64346367256788;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 89 seconds more than allowed.
+ //";
+10;com.google.javascript.jscomp.deps.JsFileParser;129;5;30;275 / 0;218 / 200          Finished!;0 / 0;42%;164970ms;9%;13;STRONGMUTATION;10%;206s;58;548518;273.5234378851785;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 390
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+11;com.google.javascript.jscomp.Scope;186;18;41;425 / 0;210 / 200          Finished!;0 / 0;27%;101448ms;20%;43;STRONGMUTATION;23%;204s;177;285281;601.6407849474595;"  - java.net.SocketPermission: 
+ //          resolve XIaiK<H6'fh&: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+12;com.google.javascript.jscomp.JsMessageVisitor;486;6;10;1,608 / 0;209 / 200          Finished!;0 / 0;6%;61084ms;3%;20;STRONGMUTATION;4%;203s;41;291343;1608.178223104202;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+13;com.google.javascript.jscomp.NodeTraversal;303;67;671;860 / 0;394 / 200          Finished!;0 / 0;20%;359924ms;3%;16;STRONGMUTATION;5%;262s;30;68351;809.9276428861727;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 62 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 71 seconds more than allowed.
+ //";
+14;com.google.javascript.rhino.jstype.TemplateType;13;4;19;0 / 0            Finished!;27 / 200;0 / 0;100%;20342ms;100%;13;STRONGMUTATION;100%;23s;57;22803;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+15;com.google.javascript.rhino.JSDocInfoBuilder;411;239;3069;308 / 0;280 / 200          Finished!;0 / 0;73%;162153ms;62%;263;STRONGMUTATION;64%;213s;75;660323;693.3172089685831;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 4
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 6 seconds more than allowed.
+ //";
+16;com.google.javascript.jscomp.deps.SimpleDependencyInfo;33;8;31;1 / 0;205 / 200          Finished!;0 / 0;97%;131514ms;76%;25;STRONGMUTATION;76%;202s;266;557912;1.0044035228182546;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+17;com.google.javascript.jscomp.SourceFile;401;117;1109;163 / 0;297 / 200          Finished!;0 / 0;61%;175853ms;51%;213;STRONGMUTATION;53%;219s;46;425404;118.17409022524996;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 4
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 18 seconds more than allowed.
+ //";
+18;com.google.javascript.jscomp.StrictModeCheck;226;0;0;775 / 0;212 / 200          Finished!;0 / 0;0%;10039ms;0%;0;STRONGMUTATION;0%;202s;31;17363;872.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+19;com.google.javascript.jscomp.parsing.TypeSafeDispatcher;5;0;0;687 / 0;201 / 200          Finished!;0 / 0;0%;3313ms;0%;0;STRONGMUTATION;0%;201s;359;0;687.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+20;com.google.javascript.jscomp.HotSwapCompilerPass;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+21;com.google.javascript.jscomp.JSError;256;20;92;113 / 0;268 / 200          Finished!;0 / 0;93%;204602ms;52%;131;STRONGMUTATION;51%;217s;27;947982;93.71005800037112;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+22;com.google.javascript.jscomp.parsing.Config;29;2;9;17 / 0;201 / 200          Finished!;0 / 0;21%;109708ms;0%;4;STRONGMUTATION;14%;201s;236;767302;16.524026918070863;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+23;com.google.javascript.jscomp.ErrorFormat;12;0;0;14 / 0;201 / 200          Finished!;0 / 0;0%;94703ms;0%;0;STRONGMUTATION;0%;201s;1528;346865;14.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 11
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+24;com.google.javascript.rhino.IR;734;46;122;1,437 / 0;247 / 200          Finished!;0 / 0;37%;68591ms;28%;266;STRONGMUTATION;36%;208s;46;101412;998.9403078917535;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+25;com.google.javascript.rhino.ScriptRuntime;675;152;1104;499 / 0;321 / 200          Finished!;0 / 0;53%;249515ms;48%;316;STRONGMUTATION;47%;230s;16;383507;429.18116526115284;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 7
+ // ";"TimeController - Phase SEARCH lasted too long, 29 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 31 seconds more than allowed.
+ //";
+26;com.google.javascript.jscomp.DiagnosticType;21;7;30;2 / 0;203 / 200          Finished!;0 / 0;95%;89670ms;95%;20;STRONGMUTATION;95%;201s;2728;554103;1.5;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.time.ZoneId
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.Temporal
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalAccessor
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalField
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalUnit
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalAmount
+ //InheritanceTree - Class not in inheritance graph: java.time.Clock
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalAdjuster
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoZonedDateTime
+ //InheritanceTree - Class not in inheritance graph: java.time.temporal.TemporalQuery
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.Chronology
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDateTime
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.Era
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //InheritanceTree - Class not in inheritance graph: java.time.chrono.ChronoLocalDate
+ //";
+27;com.google.javascript.jscomp.graph.DiGraph;24;2;8;13 / 0;201 / 200          Finished!;0 / 0;42%;30228ms;25%;6;STRONGMUTATION;25%;201s;319;156844;12.757630357630358;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 224 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 198 seconds more than allowed.
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+28;com.google.javascript.jscomp.CheckGlobalThis;159;0;0;554 / 0;212 / 200          Finished!;0 / 0;0%;6987ms;0%;0;STRONGMUTATION;0%;201s;27;10905;631.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+29;com.google.javascript.jscomp.SourceAst;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+30;com.google.javascript.rhino.jstype.ObjectType;191;77;1210;444 / 0;310 / 200          Finished!;0 / 0;62%;271958ms;23%;44;STRONGMUTATION;23%;225s;19;173871;474.61797608434733;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 6
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 24 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 24 seconds more than allowed.
+ //";
+31;com.google.javascript.jscomp.parsing.JsDocToken;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);1s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 390 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //";
+32;com.google.javascript.jscomp.MessageBundle;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+33;com.google.javascript.jscomp.CheckUnreachableCode;33;0;0;114 / 0;202 / 200          Finished!;0 / 0;0%;55171ms;0%;0;STRONGMUTATION;0%;201s;420;75495;113.91298073247191;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //   - java.net.SocketPermission: 
+ //          resolve com.google.javascript.jscomp.CheckUnreachableCode: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+34;com.google.javascript.jscomp.CleanupPasses;21;0;0;52 / 0;202 / 200          Finished!;0 / 0;0%;123549ms;0%;0;STRONGMUTATION;0%;201s;222;487188;51.734623911347065;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 3
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+35;com.google.javascript.jscomp.ScopeCreator;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+36;com.google.javascript.jscomp.Normalize;795;60;440;2,476 / 0;402 / 200          Finished!;0 / 0;15%;370166ms;0%;3;STRONGMUTATION;0%;272s;26;98548;2442.3358667308967;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 7
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 72 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 69 seconds more than allowed.
+ //";
+37;com.google.javascript.jscomp.StrictWarningsGuard;5;1;2;0 / 0            Finished!;24 / 200;0 / 0;60%;12045ms;100%;3;STRONGMUTATION;60%;24s;151;58322;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+38;com.google.javascript.jscomp.CheckProvides;86;1;5;307 / 0;203 / 200          Finished!;0 / 0;2%;165060ms;0%;1;STRONGMUTATION;1%;201s;588;182627;307.242850031782;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+39;com.google.javascript.jscomp.deps.DependencyInfo;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+40;com.google.javascript.jscomp.FunctionTypeBuilder;386;10;28;1,570 / 0;203 / 200          Finished!;0 / 0;5%;68469ms;4%;15;STRONGMUTATION;4%;202s;286;179982;1569.5493755510995;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+41;com.google.javascript.jscomp.VariableReferenceCheck;37;0;0;191 / 0;203 / 200          Finished!;0 / 0;0%;85653ms;11%;0;STRONGMUTATION;0%;203s;1473;263387;191.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+42;com.google.javascript.jscomp.CodePrinter;991;64;660;2,455 / 0;330 / 200          Finished!;0 / 0;10%;270300ms;9%;89;STRONGMUTATION;9%;234s;22;452940;2422.8267158974286;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 6
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //TimeController - Phase SEARCH lasted too long, 34 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 35 seconds more than allowed.
+ //";
+43;com.google.javascript.jscomp.parsing.JsDocInfoParser;746;179;2228;3,051 / 0;431 / 200          Finished!;0 / 0;12%;342730ms;11%;81;STRONGMUTATION;11%;274s;41;263253;3271.764862069329;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 9
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 73 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 96 seconds more than allowed.
+ //";
+44;com.google.javascript.jscomp.graph.GraphvizGraph;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+45;com.google.javascript.jscomp.graph.LinkedDirectedGraph;163;12;37;429 / 0;208 / 200          Finished!;0 / 0;10%;33540ms;9%;15;STRONGMUTATION;9%;204s;18;157034;361.90255899682273;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+46;com.google.javascript.jscomp.AbstractMessageFormatter;12;5;14;2 / 0;201 / 200          Finished!;0 / 0;83%;37317ms;83%;9;STRONGMUTATION;75%;201s;492;163734;2.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+47;com.google.javascript.jscomp.Region;400;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;99;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 133 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 213 seconds more than allowed.
+ //";
+48;com.google.javascript.rhino.jstype.UnresolvedTypeExpression;8;0;0;4 / 0;204 / 200          Finished!;0 / 0;0%;166741ms;0%;0;STRONGMUTATION;0%;204s;341;356980;4.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+49;com.google.javascript.jscomp.CustomPassExecutionTime;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+50;com.google.javascript.jscomp.CheckLevel;5;2;4;0 / 0            Finished!;1 / 200;0 / 0;100%;1013ms;100%;5;STRONGMUTATION;100%;2s;0;2417;0.0;;;
+51;com.google.javascript.rhino.InputId;7;5;11;0 / 0            Finished!;3 / 200;0 / 0;100%;2670ms;100%;7;STRONGMUTATION;100%;3s;0;10041;0.0;;;
+52;com.google.javascript.jscomp.parsing.ParserRunner;67;2;4;5 / 0;206 / 200          Finished!;0 / 0;33%;160048ms;96%;7;STRONGMUTATION;10%;203s;375;167070;4.5;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //";
+53;com.google.javascript.jscomp.deps.SortedDependencies;123;77;976;174 / 0;395 / 200          Finished!;0 / 0;39%;356871ms;11%;20;STRONGMUTATION;16%;258s;36;247579;168.97040309163407;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 336 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 57 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 77 seconds more than allowed.
+ //";
+54;com.google.javascript.rhino.jstype.NoType;11;9;36;1 / 0;202 / 200          Finished!;0 / 0;100%;137964ms;91%;10;STRONGMUTATION;91%;202s;606;167545;0.5;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+55;com.google.javascript.jscomp.Result;39;0;0;27 / 0;203 / 200          Finished!;0 / 0;0%;176637ms;0%;0;STRONGMUTATION;0%;202s;51;381523;26.571729957805907;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+56;com.google.javascript.jscomp.GlobalNamespace;873;6;17;3,138 / 0;234 / 200          Finished!;0 / 0;4%;33868ms;0%;46;STRONGMUTATION;5%;202s;23;22959;3657.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+57;com.google.javascript.jscomp.ControlFlowGraph;52;6;16;196 / 0;202 / 200          Finished!;0 / 0;29%;38594ms;29%;16;STRONGMUTATION;31%;202s;612;191104;199.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+58;com.google.javascript.jscomp.CrossModuleMethodMotion;39;3;8;118 / 0;206 / 200          Finished!;0 / 0;38%;129707ms;38%;15;STRONGMUTATION;38%;202s;840;310658;118.16984045290788;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+59;com.google.javascript.jscomp.DependencyOptions;26;7;19;4 / 0;201 / 200          Finished!;0 / 0;65%;141076ms;65%;17;STRONGMUTATION;65%;201s;419;911398;4.2272727272727275;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+60;com.google.javascript.jscomp.AbstractCompiler;18;7;14;0 / 0            Finished!;49 / 200;0 / 0;100%;19670ms;100%;18;STRONGMUTATION;100%;49s;176;29581;28.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+61;com.google.javascript.jscomp.SuppressDocWarningsGuard;53;1;3;102 / 0;211 / 200          Finished!;0 / 0;8%;135159ms;8%;3;STRONGMUTATION;6%;204s;61;164585;128.23532266283945;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+62;com.google.javascript.rhino.jstype.UnionTypeBuilder;73;12;90;27 / 0;287 / 200          Finished!;0 / 0;97%;250983ms;67%;53;STRONGMUTATION;73%;219s;7;280361;172.34854328199378;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase MINIMIZATION lasted too long, 7 seconds more than allowed.
+ //";
+63;com.google.javascript.rhino.jstype.AllType;7;7;28;0 / 0            Finished!;17 / 200;0 / 0;100%;12550ms;100%;7;STRONGMUTATION;100%;17s;36;17996;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+64;com.google.javascript.rhino.jstype.ValueType;1;1;3;0 / 0            Finished!;7 / 200;0 / 0;100%;5431ms;100%;1;STRONGMUTATION;100%;7s;10;8299;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+65;com.google.javascript.jscomp.ProcessDefines;156;0;0;649 / 0;204 / 200          Finished!;0 / 0;0%;81135ms;0%;0;STRONGMUTATION;0%;201s;211;252842;645.7495201883228;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+66;com.google.javascript.rhino.ErrorReporter;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+67;com.google.javascript.rhino.jstype.JSTypeNative;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+68;com.google.javascript.jscomp.CheckGlobalNames;187;1;5;746 / 0;204 / 200          Finished!;0 / 0;2%;121111ms;0%;1;STRONGMUTATION;1%;201s;1211;117221;745.42041768022;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+69;com.google.javascript.jscomp.DiagnosticGroup;39;7;27;34 / 0;208 / 200          Finished!;0 / 0;87%;171499ms;36%;23;STRONGMUTATION;59%;203s;62;269133;35.560384229269566;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+70;com.google.javascript.jscomp.CodeConsumer;338;9;9;1,061 / 0;202 / 200          Finished!;0 / 0;12%;93720ms;12%;42;STRONGMUTATION;12%;201s;1587;643464;1060.9;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+71;com.google.javascript.rhino.jstype.StaticScope;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+72;com.google.javascript.jscomp.MakeDeclaredNamesUnique;247;9;34;625 / 0;225 / 200          Finished!;0 / 0;13%;132075ms;7%;23;STRONGMUTATION;9%;208s;55;377034;614.5153804710052;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+73;com.google.javascript.jscomp.ProcessCommonJSModules;193;49;554;345 / 0;353 / 200          Finished!;0 / 0;55%;314859ms;12%;31;STRONGMUTATION;16%;246s;36;184605;338.6543157056891;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 46 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 45 seconds more than allowed.
+ //";
+74;com.google.javascript.jscomp.TypeValidator;494;48;783;1,586 / 0;332 / 200          Finished!;0 / 0;25%;291647ms;6%;28;STRONGMUTATION;6%;236s;76;213660;1551.7882655343708;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 10
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 35 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 36 seconds more than allowed.
+ //";
+75;com.google.javascript.rhino.JSTypeExpression;31;6;22;0 / 0            Finished!;133 / 200;0 / 0;100%;74326ms;100%;31;STRONGMUTATION;100%;132s;715;240566;40.0;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 4
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+76;com.google.javascript.jscomp.AnonymousFunctionNamingPolicy;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+77;com.google.javascript.rhino.jstype.NamedType;213;13;63;375 / 0;278 / 200          Finished!;0 / 0;66%;236534ms;20%;45;STRONGMUTATION;21%;227s;22;465377;352.03994985774597;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 27 seconds more than allowed.
+ //";
+78;com.google.javascript.jscomp.ClosureCodingConvention;372;14;52;1,121 / 0;230 / 200          Finished!;0 / 0;8%;193581ms;3%;16;STRONGMUTATION;4%;208s;19;232877;1163.6981805801558;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+79;com.google.javascript.rhino.jstype.StaticSourceFile;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+80;com.google.javascript.rhino.jstype.StaticSlot;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+81;com.google.javascript.jscomp.DisambiguateProperties;556;0;0;2,357 / 0;204 / 200          Finished!;0 / 0;0%;90946ms;0%;0;STRONGMUTATION;0%;201s;43;45017;2357.3969696951062;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+82;com.google.javascript.jscomp.CheckAccessControls;453;0;0;1,618 / 0;214 / 200          Finished!;0 / 0;0%;4002ms;0%;0;STRONGMUTATION;0%;204s;19;6337;1877.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+83;com.google.javascript.jscomp.CheckDebuggerStatement;5;1;3;8 / 0;201 / 200          Finished!;0 / 0;60%;128649ms;0%;1;STRONGMUTATION;20%;201s;1353;423203;7.752959837781266;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 3
+ //   - java.net.SocketPermission: 
+ //          resolve W=L_Ye: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+84;com.google.javascript.jscomp.JSModuleGraph;214;5;26;579 / 0;263 / 200          Finished!;0 / 0;10%;228294ms;2%;8;STRONGMUTATION;4%;226s;35;55858;546.4266553224137;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TimeController - Phase SEARCH lasted too long, 26 seconds more than allowed.
+ //";
+85;com.google.javascript.rhino.jstype.NoResolvedType;11;7;28;1 / 0;202 / 200          Finished!;0 / 0;100%;153023ms;91%;10;STRONGMUTATION;91%;201s;601;196125;0.5;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+86;com.google.javascript.jscomp.ControlStructureCheck;23;0;0;65 / 0;204 / 200          Finished!;0 / 0;0%;179236ms;0%;0;STRONGMUTATION;0%;201s;68;72333;65.0063958984095;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+87;com.google.javascript.jscomp.CodingConvention;40;8;32;21 / 0;207 / 200          Finished!;0 / 0;60%;117941ms;38%;19;STRONGMUTATION;48%;201s;281;346691;21.898632697777373;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //TimeController - Phase SEARCH lasted too long, 136 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 126 seconds more than allowed.
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+88;com.google.javascript.rhino.jstype.StaticSymbolTable;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+89;com.google.javascript.jscomp.PropertyRenamingPolicy;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
+90;com.google.javascript.jscomp.CodeGenerator;640;86;823;2,770 / 0;291 / 200          Finished!;0 / 0;22%;215718ms;20%;124;STRONGMUTATION;19%;217s;33;326025;2765.3994545439477;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 4
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 14 seconds more than allowed.
+ //";
+91;com.google.javascript.jscomp.parsing.JsDocTokenStream;1028;118;1469;1,799 / 0;574 / 200          Finished!;0 / 0;34%;352162ms;28%;327;STRONGMUTATION;32%;378s;0;346188;1767.3586532901288;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 9
+ // ";"TimeController - Phase SEARCH lasted too long, 178 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 134 seconds more than allowed.
+ //";
+92;com.google.javascript.jscomp.PassFactory;18;4;22;7 / 0;207 / 200          Finished!;0 / 0;89%;95686ms;22%;7;STRONGMUTATION;39%;206s;126;212906;13.537102838159177;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+93;com.google.javascript.jscomp.TypedCodeGenerator;71;0;0;385 / 0;201 / 200          Finished!;0 / 0;0%;99563ms;0%;0;STRONGMUTATION;0%;201s;4870;322631;385.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+94;com.google.javascript.rhino.jstype.InstanceObjectType;75;8;47;80 / 0;248 / 200          Finished!;0 / 0;88%;213047ms;37%;28;STRONGMUTATION;37%;210s;47;157289;186.54388096650393;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+95;com.google.javascript.jscomp.OptimizeCalls;8;2;11;7 / 0;201 / 200          Finished!;0 / 0;38%;119776ms;0%;3;STRONGMUTATION;38%;201s;742;411725;6.972521828454031;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //   - java.net.SocketPermission: 
+ //          resolve kq'fR: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+96;com.google.javascript.rhino.jstype.FunctionBuilder;15;4;24;3 / 0;208 / 200          Finished!;0 / 0;100%;180162ms;67%;10;STRONGMUTATION;67%;202s;92;230450;2.5;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 265 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+97;com.google.javascript.jscomp.VarCheck;93;0;0;339 / 0;203 / 200          Finished!;0 / 0;0%;170718ms;0%;0;STRONGMUTATION;0%;201s;109;295492;339.37622088970465;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+98;com.google.javascript.jscomp.DiagnosticGroupWarningsGuard;16;9;46;0 / 0            Finished!;11 / 200;0 / 0;75%;7555ms;100%;15;STRONGMUTATION;94%;9s;7;30656;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+99;com.google.javascript.jscomp.ReplaceIdGenerators;97;1;5;299 / 0;218 / 200          Finished!;0 / 0;21%;121610ms;6%;6;STRONGMUTATION;6%;206s;46;124987;299.1323463776657;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+100;com.google.javascript.rhino.SourcePosition;117;10;25;69 / 0;204 / 200          Finished!;0 / 0;72%;101169ms;43%;79;STRONGMUTATION;68%;201s;206;586401;105.29433493880107;;;
+101;com.google.javascript.jscomp.CodingConventions;122;16;48;284 / 0;220 / 200          Finished!;0 / 0;27%;133694ms;25%;31;STRONGMUTATION;25%;204s;107;205252;425.96799672208704;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+102;com.google.javascript.rhino.jstype.StaticReference;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+103;com.google.javascript.jscomp.ReferenceCollectingCallback;354;9;32;1,018 / 0;245 / 200          Finished!;0 / 0;15%;168764ms;4%;15;STRONGMUTATION;4%;218s;133;184311;1003.6551038647056;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+104;com.google.javascript.jscomp.MessageFormatter;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+105;com.google.javascript.rhino.jstype.IndexedType;1;1;6;0 / 0            Finished!;6 / 200;0 / 0;100%;4579ms;100%;1;STRONGMUTATION;100%;6s;1;4856;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 169 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 265 seconds more than allowed.
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+106;com.google.javascript.rhino.jstype.VoidType;8;6;26;0 / 0            Finished!;41 / 200;0 / 0;100%;25226ms;100%;8;STRONGMUTATION;100%;39s;71;38208;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+107;com.google.javascript.jscomp.RhinoErrorReporter;194;0;0;559 / 0;201 / 200          Finished!;0 / 0;0%;76023ms;0%;0;STRONGMUTATION;0%;201s;88;95364;559.4674791087066;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$9/296686388 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$9/296686388
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //TestClusterGenerator - class java.util.Map$Entry$$Lambda$10/492963520 looks like an anonymous class, ignoring it (although reflection says false) Map$Entry$$Lambda$10/492963520
+ //";
+108;com.google.javascript.rhino.jstype.UnknownType;27;18;73;1 / 0;208 / 200          Finished!;0 / 0;100%;128181ms;89%;24;STRONGMUTATION;89%;202s;267;247278;61.36363636363636;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+109;com.google.javascript.jscomp.JsAst;6;2;11;5 / 0;202 / 200          Finished!;0 / 0;67%;116252ms;33%;3;STRONGMUTATION;50%;201s;291;83539;4.5;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+110;com.google.javascript.jscomp.TypedScopeCreator;925;61;1380;4,002 / 0;535 / 200          Finished!;0 / 0;0%;495319ms;0%;1;STRONGMUTATION;0%;334s;168;96561;3991.771332356904;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TimeController - Phase SEARCH lasted too long, 133 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 138 seconds more than allowed.
+ //";
+111;com.google.javascript.jscomp.SyntacticScopeCreator;162;1;13;562 / 0;224 / 200          Finished!;0 / 0;4%;175150ms;1%;1;STRONGMUTATION;1%;208s;760;82153;560.6824505855327;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 3
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+112;com.google.javascript.jscomp.parsing.Annotation;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+113;com.google.javascript.jscomp.CompilerPass;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+114;com.google.javascript.rhino.jstype.ErrorFunctionType;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+115;com.google.javascript.rhino.jstype.NoObjectType;28;16;68;3 / 0;206 / 200          Finished!;0 / 0;96%;100046ms;93%;26;STRONGMUTATION;93%;202s;239;197489;70.84782608695653;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+116;com.google.javascript.rhino.jstype.NullType;11;8;32;1 / 0;203 / 200          Finished!;0 / 0;100%;112282ms;100%;11;STRONGMUTATION;100%;201s;676;153118;1.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+117;com.google.javascript.rhino.jstype.ArrowType;210;103;1120;213 / 0;294 / 200          Finished!;0 / 0;85%;230892ms;45%;95;STRONGMUTATION;45%;219s;60;273254;375.35836019776104;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 6
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 14 seconds more than allowed.
+ //";
+118;com.google.javascript.rhino.jstype.ProxyObjectType;99;19;96;292 / 0;229 / 200          Finished!;0 / 0;41%;167284ms;22%;22;STRONGMUTATION;22%;206s;102;345928;290.5995599701904;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+119;com.google.javascript.jscomp.BasicErrorManager;120;104;2176;32 / 0;281 / 200          Finished!;0 / 0;91%;65047ms;79%;71;STRONGMUTATION;59%;213s;105;265231;31.75846431255375;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 10
+ //   - java.net.SocketPermission: 
+ //          connect,resolve 127.0.0.1:3925: 1
+ //          resolve com.google.javascript.jscomp.BasicErrorManager$LeveledJSErrorComparator: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.ToDoubleFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.ToIntFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.ToLongFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 7 seconds more than allowed.
+ //";
+120;com.google.javascript.jscomp.CreateSyntheticBlocks;111;0;0;367 / 0;214 / 200          Finished!;0 / 0;0%;5742ms;0%;0;STRONGMUTATION;0%;204s;16;9109;401.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+121;com.google.javascript.jscomp.AstValidator;601;2;5;1,913 / 0;214 / 200          Finished!;0 / 0;0%;59174ms;0%;2;STRONGMUTATION;0%;203s;62;122331;1886.4777661347696;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+122;com.google.javascript.jscomp.PhaseOptimizer;149;5;41;124 / 0;246 / 200          Finished!;0 / 0;63%;128427ms;50%;22;STRONGMUTATION;15%;209s;101;314549;118.57447355280817;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+123;com.google.javascript.jscomp.PrepareAst;174;2;15;579 / 0;214 / 200          Finished!;0 / 0;9%;186850ms;1%;4;STRONGMUTATION;2%;204s;106;141352;578.9009933474986;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+124;com.google.javascript.jscomp.SourceExcerptProvider;9;0;0;4 / 0;202 / 200          Finished!;0 / 0;100%;127330ms;100%;0;STRONGMUTATION;0%;202s;769;227845;4.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 27
+ //   - java.net.SocketPermission: 
+ //          resolve j$ HF2_(SQ8rW: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+125;com.google.javascript.jscomp.SourceMap;72;5;15;215 / 0;203 / 200          Finished!;0 / 0;18%;101655ms;14%;16;STRONGMUTATION;22%;201s;249;711091;213.82509519061864;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 2
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+126;com.google.javascript.rhino.jstype.ParameterizedType;23;6;27;1 / 0;207 / 200          Finished!;0 / 0;100%;154852ms;91%;21;STRONGMUTATION;91%;202s;584;177220;31.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+127;com.google.javascript.jscomp.type.SemanticReverseAbstractInterpreter;334;1;6;1,192 / 0;215 / 200          Finished!;0 / 0;0%;134207ms;0%;2;STRONGMUTATION;1%;202s;69;239999;1190.0972829817044;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+128;com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter;173;15;132;505 / 0;255 / 200          Finished!;0 / 0;39%;181827ms;20%;36;STRONGMUTATION;21%;212s;69;261583;643.4678825757603;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+129;com.google.javascript.jscomp.SyntheticAst;2;0;0;1 / 0;203 / 200          Finished!;0 / 0;0%;80007ms;0%;0;STRONGMUTATION;0%;203s;1085;283146;1.0;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 3
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+130;com.google.javascript.rhino.jstype.FunctionParamBuilder;81;31;376;60 / 0;491 / 200          Finished!;0 / 0;94%;484000ms;40%;34;STRONGMUTATION;42%;318s;0;36716;38.44569585315901;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 9
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 118 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 113 seconds more than allowed.
+ //";
+131;com.google.javascript.jscomp.DiagnosticGroups;505;411;6932;565 / 0;783 / 200          Finished!;0 / 0;;352396ms;53%;65;STRONGMUTATION;13%;589s;0;61186;541.5463389280059;;"InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 389 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 133 seconds more than allowed.
+ //";
+132;;239;63;1457;22 / 0;275 / 200          Finished!;0 / 0;64%;150519ms;76%;155;STRONGMUTATION;65%;207s;60;611148;97.18181818181816;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 71
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 8 seconds more than allowed.
+ //";
+133;com.google.javascript.jscomp.ErrorHandler;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+134;com.google.javascript.jscomp.deps.JsFileLineParser;206;4;18;470 / 0;213 / 200          Finished!;0 / 0;25%;172488ms;3%;7;STRONGMUTATION;3%;203s;51;320459;470.0879742475214;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 4
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+135;com.google.javascript.rhino.jstype.BooleanType;10;9;41;1 / 0;204 / 200          Finished!;0 / 0;100%;126098ms;100%;10;STRONGMUTATION;100%;202s;530;178984;1.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //";
+136;com.google.javascript.jscomp.GoogleCodingConvention;55;11;26;15 / 0;208 / 200          Finished!;0 / 0;82%;127860ms;76%;42;STRONGMUTATION;76%;203s;214;279353;14.675051709132106;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+137;com.google.javascript.jscomp.CheckSideEffects;126;3;18;274 / 0;223 / 200          Finished!;0 / 0;46%;154431ms;6%;13;STRONGMUTATION;10%;203s;161;458720;274.05936392775203;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+138;com.google.javascript.rhino.jstype.UnionType;259;132;2040;749 / 0;400 / 200          Finished!;0 / 0;62%;359602ms;18%;58;STRONGMUTATION;22%;262s;59;118726;774.56798048592;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 9
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //TimeController - Phase SEARCH lasted too long, 61 seconds more than allowed.
+ //TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+ //TimeController - Phase MINIMIZATION lasted too long, 70 seconds more than allowed.
+ //";
+139;com.google.javascript.jscomp.CheckRegExp;71;3;12;117 / 0;240 / 200          Finished!;0 / 0;69%;215709ms;11%;9;STRONGMUTATION;13%;212s;134;103447;117.3894484523907;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //";
+140;com.google.javascript.jscomp.parsing.IRFactory;977;7;62;3,651 / 0;263 / 200          Finished!;0 / 0;3%;188798ms;4%;30;STRONGMUTATION;3%;220s;56;441899;3764.8113406857733;"  - java.lang.RuntimePermission: 
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+ //";
+141;com.google.javascript.jscomp.graph.AdjacencyGraph;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+142;com.google.javascript.jscomp.WarningsGuard;12;4;15;12 / 0;201 / 200          Finished!;0 / 0;100%;104768ms;67%;8;STRONGMUTATION;67%;201s;2093;398898;12.0;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+143;com.google.javascript.jscomp.Denormalize;120;2;9;344 / 0;205 / 200          Finished!;0 / 0;2%;159679ms;1%;2;STRONGMUTATION;2%;202s;130;180449;343.35991096886903;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 8
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+144;com.google.javascript.jscomp.ErrorManager;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;"InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+145;com.google.javascript.jscomp.graph.Graph;38;5;18;51 / 0;205 / 200          Finished!;0 / 0;18%;37484ms;11%;6;STRONGMUTATION;16%;202s;99;174943;50.9190715793053;;"InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //";
+146;com.google.javascript.jscomp.CodeChangeHandler;6;3;8;1 / 0;201 / 200          Finished!;0 / 0;50%;143777ms;50%;3;STRONGMUTATION;50%;201s;2057;349168;1.3636363636363638;;;
+147;com.google.javascript.jscomp.CompilerInput;68;8;24;185 / 0;209 / 200          Finished!;0 / 0;36%;133560ms;22%;15;STRONGMUTATION;22%;204s;147;178350;182.82019649820322;"  - java.lang.RuntimePermission: 
+ //          fileSystemProvider: 1
+ //          writeFileDescriptor: 1
+ // ";"InheritanceTree - Class not in inheritance graph: java.util.function.Consumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Predicate
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiFunction
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Function
+ //InheritanceTree - Class not in inheritance graph: java.util.function.BiConsumer
+ //InheritanceTree - Class not in inheritance graph: java.util.function.UnaryOperator
+ //InheritanceTree - Class not in inheritance graph: java.util.function.Supplier
+ //MSecurityManager - SUT asked for a runtime permission that EvoSuite does not recognize: fileSystemProvider
+ //";
+148;com.google.javascript.jscomp.VariableRenamingPolicy;;0;0;0 / 0            Finished!;0 / 200;0 / 0;100%;0ms;100%;;STRONGMUTATION;100% (no goals);0s;0;0;0.0;;;
