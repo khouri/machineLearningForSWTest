@@ -215,7 +215,7 @@ def parse_evosuite_log_file(path):
      return(df_log_evo)
 pass
 
-#
+
 ##Branch
 #path = "Closure.18b.branch.1.log"
 #config_evo_run = parse_evosuite_log_file(path)
@@ -228,7 +228,7 @@ pass
 #config_evo_run.to_csv('parseado_weakmutation.csv',sep = ';')
 
 
-#strongmutation
+#strongmutation #apontar para o desktop eh muit grande coisa de 116Mb
 #path = "Closure.18b.strongmutation.3.log"
 #config_evo_run = parse_evosuite_log_file(path)
 #config_evo_run.to_csv('parseado_strongmutation_no_error.csv',sep = ';')
