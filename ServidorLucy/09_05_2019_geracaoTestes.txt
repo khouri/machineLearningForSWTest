@@ -3,6 +3,8 @@
 ssh evosuite@143.107.58.177
 evosuite/19#sin5022#01
 
+
+ ps --sort=-pcpu | head -n 6
 ================================================================================
 cd evosuit
 
@@ -282,6 +284,12 @@ nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18
 #Rodar casos do EVO sobre o conjunto de dados
 /home/sin5022-adm/defects4j/framework/bin/d4j/d4j-test -w /home/evosuite/adilsonTeste/Clojure_18_bug -s outputTeste/Closure/evosuite-branch/1/Closure-18b-evosuite-branch.1.tar.bz2
 
+
+
+
+
+
+scp evosuite@143.107.58.177:/home/evosuite/sizes.txt /Users/adilsonlopeskhouri/Desktop/sizes.txt
 
 
 
