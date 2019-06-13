@@ -5,23 +5,27 @@
 #Faz o download do projeto Closure v18 no diretorio: /home/evosuite/adilsonTeste/Clojure_18_buggy  ( uma pasta xpto dentro do usuário onde posso escrever)
 
 ###fix
-/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18f -w /home/evosuite/adilsonTeste/Clojure_18_fixed
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18f -w /home/evosuite/adilsonteste/Clojure_18_fixed
 
 ###bug
-/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonTeste/Clojure_18_bug
+/home/sin5022-adm/defects4j/framework/bin/defects4j checkout -p Closure -v 18b -w /home/evosuite/adilsonteste/Clojure_18_bug
+
+###dentro da raiz do diretorio das duas vers compilar tudo com o comando: 
+ant jar
 
 
 #Roda a geracao de testes:
 Vale ressaltar que o parametro -A forca a execucao sobre todas as classes de interesse (de acordo com a doc) o tempo de execução de cada caso foi de 4h após adicionar o parâmetro -A
 
 ###branch
-nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 1 -t /home/evosuite/adilsonteste/Clojure_18_bug/ &
 
 ###weakmutation
-nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c weakmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonteste/Clojure_18_bug/ &
 
-###strongmutation
-nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
+###strongmutation (5717)
+nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c strongmutation -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 3 -t /home/evosuite/adilsonteste/Clojure_18_bug/ &
+
 
 
 #Compila os testes
@@ -43,13 +47,19 @@ resumidamente coloca no path do compilador javac os jars necessarios, passa por 
 
 
 
+https://spectraldifferences.wordpress.com/2014/03/02/recursively-finding-files-in-python-using-the-find-command/
 
 
 DOING
-javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:" testeJunity/main/java/outropackage/inside1/mult.java testeJunity/main/java/outropackage/ddd.java testeJunity/main/java/projetoCobertura/projetoCobertura/FmtRewrap.java testeJunity/test/java/projetoCobertura/projetoCobertura/FmtRewrapTeste.java
+compila a porra toda
+javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest_scaffolding.java outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest.java
 
---NO CLASSPATH EU DEVO COLOCAR A RAIZ ANTES DA HIERARQUIA DE CLASSES, o nome das classes deve conter . ao inves de /
-java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./testeJunity/test/java/:./testeJunity/main/java/" org.junit.runner.JUnitCore projetoCobertura.projetoCobertura.FmtRewrapTeste
+Agora preciso passar todas as classes.
+
+
+executa a porra toda
+java -cp .:"hamcrest-core-1.3.jar:junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/" org.junit.runner.JUnitCore com.google.javascript.jscomp.Compiler_ESTest_scaffolding com.google.javascript.jscomp.Compiler_ESTest 
+> teste.txt
 
 
 
@@ -59,8 +69,12 @@ testar o parametro:
 $(find testeJunity -name "*.class")
 
 
+while true; do     sleep 5;     ps -e -o pid,comm,etime | grep 5717 ; done
 
 
+
+ssh evosuite@143.107.58.204
+19#sin5022#01
 
 
 

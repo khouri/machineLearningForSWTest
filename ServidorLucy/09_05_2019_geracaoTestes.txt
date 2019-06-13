@@ -110,7 +110,7 @@ nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18
 nohup /home/sin5022-adm/defects4j/framework/bin/run_evosuite.pl -p Closure -v 18b -c branch -A -o /home/evosuite/adilsonTeste/outputTeste/ -n 2 -t /home/evosuite/adilsonTeste/Clojure_18_bug/ &
 
 
-ps -e -o pid,comm,etime | grep 9795
+pe
 
  vim ../../sin5022-adm/defects4j/framework/bin/run_evosuite.pl 
 
@@ -189,7 +189,9 @@ java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore $(find
 
 
 
-java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" org.junit.runner.JUnitCore outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest_scaffolding outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest 
+java -cp .:"hamcrest-core-1.3.jar:junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/" org.junit.runner.JUnitCore com.google.javascript.jscomp.Compiler_ESTest_scaffolding com.google.javascript.jscomp.Compiler_ESTest 
+> teste.txt
+ 
 
 
 
@@ -254,8 +256,7 @@ ps -e -o pid,comm,etime | grep 9795
 
 while true; do
     sleep 5
-    ps -e -o pid,comm,etime | grep 3251
-    ps -e -o pid,comm,etime | grep 3417
+    ls
 done
 
 while true; do
