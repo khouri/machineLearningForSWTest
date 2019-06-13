@@ -180,12 +180,12 @@ $(find testeJunity -name "*.class")
 javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest_scaffolding.java outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/Compiler_ESTest.java
 
 
-javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" $(find outputTeste/Closure/evosuite-branch/1/ -name "*.java")
+--Removi a classe com erro
+javac -cp .:"junit-4.12.jar:evosuite-1.0.6.jar:./Clojure_18_bug/build/compiler.jar:./outputTeste/Closure/evosuite-branch/1/com/google/javascript/jscomp/" $(find outputTeste/Closure/evosuite-branch/1/ -name "*.java" -and -not -name "Graph_ESTest.java")
 
 
 
-
-java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore $(find outputTeste/Closure/evosuite-branch/1/ -name "*.class")
+java -cp .:"junit-4.12.jar:evosuite-1.0.6.jar" org.junit.runner.JUnitCore $(find outputTeste/Closure/evosuite-branch/1/ -name "*.class" -and -not -name "Graph_ESTest.class") > class.txt
 
 
 
