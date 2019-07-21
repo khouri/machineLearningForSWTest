@@ -91,6 +91,29 @@ https://github.com/EvoSuite/evosuite/issues/41
 
 
 
+--diferenca entre diretorios
+diff -qr Clojure_18_bug Clojure_18_fixed | sort
+
+
+--diferenca entre arquivos
+
+diff -c class_branch_bug.txt class_branch_fixed.txt > dif_branch.txt
+
+diff -c class_strong_bug.txt class_strong_fixed.txt > dif_strong.txt
+
+diff -c class_weak_bug.txt class_weak_fixed.txt > dif_weak.txt
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
